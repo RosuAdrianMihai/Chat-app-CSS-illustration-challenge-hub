@@ -1,0 +1,248 @@
+ body{
+    margin:0;
+    width:100%;
+    height:100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+#culoare{
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position:absolute; 
+    z-index: -1;
+}
+
+#telefon{
+    border:15px solid transparent;
+    position: relative;
+    width:375px;
+    border-radius:7%;
+    padding:15px;
+    box-shadow: 3px 3px 5px grey;
+    background-color:hsl(270, 20%, 96%);
+    margin-top:15%;
+    
+}
+
+.white-top{
+    height:50px;
+    width:200px;
+    position:absolute;
+    margin:0 23%;
+    margin-top:-25px;
+    background-color:white;
+    border-radius:30px;
+}
+
+#user-status{
+    display:flex;
+    align-items: center;
+    padding:0px 15px;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    height:100px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#user-status *{
+    margin-top: 10px;
+}
+
+#flexbox-1{
+    display:flex;
+   
+}
+
+#subpart-1{
+    display:flex;
+    align-items: center;
+    color:white;
+    font-weight:300;
+    font-size: 20px;
+}
+
+#subpart-1 img{
+    height:35px;
+    border-radius: 50%;
+    margin-left:10px;
+    border:2px solid white;
+}
+
+#subpart-2 *{
+    margin:2px;
+    margin-left:10px;
+    color: white;
+}
+
+#subpart-2 h3{
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 7px;
+}
+
+#subpart-2 p{
+    font-size: 12px;
+    color:hsl(276, 100%, 81%);
+    
+}
+
+.sent-messages{
+    background-color:  lightgrey;
+    width:60%;
+    border-radius:14px;
+    padding:1px 10px;
+    margin-left:10px;
+    margin-top:15px;
+}
+
+.sent-messages p{
+    color:hsl(276, 55%, 52%);
+}
+
+.dog-images{
+    display:flex;
+    margin:20px 0px;
+    margin-right:-10px;
+    justify-content: flex-end;
+}
+
+.dog-images img{
+    height:65px;
+    border-radius:10px;
+    margin-right:15px;
+}
+
+.received-messages{
+    border-radius:14px;
+    padding:1px 10px;
+    width:60%;
+    margin-left:35%;
+    margin-right:10px;
+    margin-top:15px;
+    background-color:white;
+}
+
+.received-messages p{
+    color:hsl(271, 15%, 43%);
+}
+
+#short-message{
+    width:fit-content;
+    margin-left:60%;
+    margin-right:0;
+}
+
+.part-1{
+    display:flex;
+    align-items:center;
+    padding: 8px 5px;
+    margin-left: 15px;
+}
+
+.price{
+    display:flex;
+    background-image:linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    margin:15px 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    align-items: center;
+   
+}
+
+.price h1{
+    color:white;
+    font-size:25px;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:transparent;
+    border:1px solid white;
+    margin-right:20px;
+}
+
+#pret-mic{
+    margin-left:100px;
+}
+
+#pret-mare{
+    margin-left: 133px;
+}
+
+#text-area{
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+
+#submit-button{
+    color:white;
+    background-color:hsl(271, 36%, 24%);
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    display:grid;
+    place-items: center;
+    position:absolute;
+    margin-left: 310px;
+}
+
+#submit-button, .circle, #subpart-1, img:hover{
+    cursor: pointer;
+}
+
+input{
+    border:none;
+    width:320px;
+    height:30px;
+    margin-left:10px;
+    padding:10px 15px;
+    border-radius:30px;
+}
+
+#title{
+    color:hsl(271, 36%, 24%);
+    font-size:50px;
+}
+
+#description{
+    font-size:20px;
+    color:darkgrey;
+    width:500px;
+}
+
+.wrap-text{
+    margin-left:-200px;
+    letter-spacing:0.5px;
+}
+
+@media (min-width:376px){
+
+#culoare{
+    height:80vh;
+    width:35vw;
+    border-bottom-left-radius: 47%;
+    border-bottom-right-radius: 47%;
+    margin-top: 0;
+}
+
+#container{
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content: center;
+     align-items: center;
+     margin-left:25%;
+     
+}
+
+}
+
+@media (max-width:375px){
+    
+}
