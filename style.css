@@ -4,6 +4,7 @@
     height:100%;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+     zoom:67%;
 }
 
 #culoare{
@@ -225,8 +226,8 @@ input{
 @media (min-width:376px){
 
 #culoare{
-    height:80vh;
-    width:35vw;
+    height:80%;
+    width:35%;
     border-bottom-left-radius: 47%;
     border-bottom-right-radius: 47%;
     margin-top: 0;
